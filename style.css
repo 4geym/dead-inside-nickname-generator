@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000 url(ghoul2.gif) no-repeat;
+    background-size: 100%;
+}
+.container {
+    min-height: 100px;
+    min-width: 600px;
+    padding: 50px;
+    background: white;   
+    border-radius: 15px;
+}
+.header {
+    text-align: center;
+}
+.header-top {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.header-bottom {
+    margin-bottom: 20px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gif-plus-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.text {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 10px;
+}
+.text p {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+button {
+    background: transparent;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 40px;
+    transition: 0.5s;
+}
+button:hover {
+    color: #8E0E00;
+    border: 2px solid #8E0E00;
+    background: rgba(0, 0, 0, 0.1);
+}
